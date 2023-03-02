@@ -6,7 +6,7 @@ if number.isdigit():
         print("type in a number more than zero")
         quit()
 else:
-    print("type in a digit u idiot")
+    print("type in a digit u")
     quit()
 
 r = random.randrange(number)
@@ -18,7 +18,7 @@ while True:
     if your_guess.isdigit():
         your_guess = int(your_guess)
     else:
-        print("type in a digit u idiot")
+        print("type in a digit u")
         continue
 
     if your_guess == r:
